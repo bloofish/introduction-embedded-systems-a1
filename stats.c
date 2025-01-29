@@ -9,13 +9,12 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.c
+ * @brief Assignment 1 main file
  *
- * <Add Extended Description Here>
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author Fraser Geddes
+ * @date 29/01/25
  *
  */
 
@@ -36,7 +35,34 @@ void main() {
                                 7,  87, 250, 230,  99,   3, 100,  90};
 
   /* Other Variable Declarations Go Here */
-  /* Statistics and Printing Functions Go Here */
+ void print_array(unsigned char * data, unsigned int size){
+
+ }
+
+ unsigned char find_median(unsigned char * data, unsigned int size){
+
+
+ return median;
+ }
+
+ unsigned char find_mean(unsigned char * data, unsigned int size){
+
+ return mean;
+ }
+
+ unsigned char find_maximum(unsigned char * data, unsigned int size){
+
+ return maximum;
+ }
+
+ unsigned char find_minimum(unsigned char * data, unsigned int size){
+
+ reurn minimum;
+ }
+
+ void sort_array(unsigned char * data, unsigned int size){
+
+ }
 
 }
 

@@ -9,32 +9,92 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.h
+ * @brief Assignment 1 header file
  *
- * <Add Extended Description Here>
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author Fraser Geddes
+ * @date 28/01/25
  *
  */
 #ifndef __STATS_H__
 #define __STATS_H__
 
-/* Add Your Declarations and Function Comments here */ 
+
+void print_statistics(unsigned char * data, unsigned int size);
 
 /**
- * @brief <Add Brief Description of Function Here>
+ * @brief print array
  *
- * <Add Extended Description Here>
+ * Given an array of data and a length, prints the array to the screen
  *
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
+ * @param data Pointer to data array
+ * @param size Size of the data array
  *
- * @return <Add Return Informaiton here>
+ * @return void
  */
+void print_array(unsigned char * data, unsigned int size);
+
+/**
+ * @brief find median
+ *
+ * Given an array of data and a length, returns the median value
+ *
+ * @param data Pointer to data array
+ * @param size Size of the data array
+ *
+ * @return median value
+ */
+unsigned char find_median(unsigned char * data, unsigned int size);
+
+/**
+ * @brief find mean
+ *
+ * Given an array of data and a length, returns the mean value
+ *
+ * @param data Pointer to data array
+ * @param size Size of the data array
+ *
+ * @return mean value
+ */
+unsigned char find_mean(unsigned char * data, unsigned int size);
+
+/**
+ * @brief find maximum
+ *
+ * Given an array of data and a length, returns the maximum
+ *
+ * @param data Pointer to data array
+ * @param size Size of the data array
+ *
+ * @return maximum value
+ */
+unsigned char find_maximum(unsigned char * data, unsigned int size);
+
+/**
+ * @brief find minimum
+ *
+ * Given an array of data and a length, returns the minimum
+ *
+ * @param data Pointer to data array
+ * @param size Size of the data array
+ *
+ * @return minumum value
+ */
+unsigned char find_minimum(unsigned char * data, unsigned int size);
+
+/**
+ * @brief sort array
+ *
+ *  Given an array of data and a length, sorts the array from largest to smallest. 
+ *
+ * @param data Pointer to data array
+ * @param size Size of the data array
+ *
+ * @return void
+ */
+void sort_array(unsigned char * data, unsigned int size);
+
 
 
 #endif /* __STATS_H__ */
